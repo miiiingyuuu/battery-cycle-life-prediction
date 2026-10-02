@@ -53,8 +53,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 19331,
-      "sha256": "10a730ac89dcc77fb202f998fdcd3bf4df2375f90fec1f4e166b2938c3ce0d01"
+      "bytes": 15859,
+      "sha256": "5da45b3cfee47b8e344be6f7ce0c5184b8e427d262657769357436a5850395c7"
     },
     {
       "path": "data/README.md",
@@ -323,8 +323,8 @@
     },
     {
       "path": "src/build_day2_artifacts.py",
-      "bytes": 40486,
-      "sha256": "2fea884cff3a4a54d96f9b07c71dda7a135f0034558f9307020a06d11896c348"
+      "bytes": 36858,
+      "sha256": "f9ee02a5772c334d6ab14b3f5a50818f12128d2f20df30b6a639dfac096189fc"
     },
     {
       "path": "src/day1_charge_analysis.py",

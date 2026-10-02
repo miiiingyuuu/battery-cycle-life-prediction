@@ -297,24 +297,7 @@ def write_documents(sections):
     (PROJECT_DIR / "DAY2-Report-울산_1반-박민규.md").write_text(
         report, encoding="utf-8"
     )
-    performance = pd.read_csv(RESULTS / "model_performance.csv")
-    readme = "# ESS 배터리 수명 예측\n\n" + sections["overview"]
-    readme += "\n## EDA 핵심 발견\n\n" + sections["eda"]
-    readme += "\n## Modeling\n\n" + sections["features"]
-    readme += "\n### 모델 선택 및 근거\n\n"
-    readme += "Dummy 중앙값, A 선형회귀, B/C 및 네 가지 대체 세트 Ridge를 비교했다. 최종 모델은 **dq_logvar 하나를 사용하는 원 타깃 선형회귀**다. B1 개발 35셀에서 정책 그룹 5-fold CV와 고정 1-SE 규칙으로 선택했으며, 추가 피처는 단일 핵심 피처보다 평균 CV 오차를 줄이지 못했다.\n\n"
-    readme += "B1 Hold-out은 11셀·5정책을 별도로 유지했다. 모든 imputer/scaler는 fold train에서만 학습했다. 선택 이후 전체 B1 46셀로 재학습해 B2/B3를 평가했다. 세부 후보·선택·민감도는 [Day2 보고서](DAY2-Report-울산_1반-박민규.md)에 있다.\n"
-    readme += "\n## 성능 결과\n\n" + markdown_table(performance)
-    readme += "\n\nGap은 뒤 평가 MAPE−앞 평가 MAPE(%p)다. B2 목표 대비는 31.529−9.1=**+22.429%p**이며 목표를 달성하지 못했다. Train은 CV 평균이고 학습 적합 오차가 아니다. CV–Hold-out 차이에는 선택 편향과 작은 그룹 표본이, B2 저하에는 단수명 학습 부족과 배치 차이가 영향을 줄 수 있다. 논문과 배치·셀 처리·분할 조건이 달라 동일 조건 재현은 아니다.\n"
-    readme += "\n## 오류 분석\n\nB2 최악 b2c6는 실제 393회·예측 674.575회·APE 71.647%다. b2c15와 같은 3.6C(9%)-5C 정책에서 큰 과대 예측이 있었고 다른 정책에서도 오차가 나타났다. B2 <500회 셀 28개 모두 과대 예측됐다. B1에는 해당 구간 셀이 없다. B3 최악 b3c38은 실제 1,935회·예측 1,025.773회로 909회 과소 예측됐다. B1 최대 수명은 1,227회다.\n\nB2 dq_logvar는 11/39셀이 B1 범위를 벗어나지만 b2c6는 범위 안이므로 입력 범위 이탈만으로 실패를 설명할 수 없다. 단수명·장수명 개발 표본 보강과 라벨·측정 조건 감사가 필요하다. [셀별 오차](results/day2/external_errors.csv), [정책별 오차](results/day2/errors_by_policy.csv), [수명 구간별 오차](results/day2/errors_by_life_group.csv)를 저장했다.\n"
-    readme += "\n## ESS 도메인 해석\n\n" + sections["domain"]
-    readme += "\n## 평가 한계\n\nDay1 요구에 따라 B2/B3 라벨을 이미 탐색했다. Day2 선택에는 B1 CV만 썼지만 완전한 blind test는 아니다. 35개 개발 셀로 39개 후보를 비교했으므로 선택 불확실성이 크다. 전 수명 품질 후보는 주 분석에서 삭제하지 않았고, 고정 검증 셀의 학습 fold 내 제외 민감도만 확인했다. 자세한 검토는 [요구사항 대조](DAY2-Requirements-Check.md)와 [자체 평가](DAY2-Rubric-Review.md)에 있다.\n"
-    readme += (
-        "\n" + sections["reproduction"] + "\n## 참고문헌\n\n" + sections["references"]
-    )
-    readme += "\n## 팀 구성\n\n- 울산 1반 박민규: EDA, 피처 엔지니어링, 모델 개발, Batch 2·3 평가 및 문서 작성.\n"
-    readme += "\n## 제출 상태\n\n과제용 공개 저장소는 [battery-cycle-life-prediction](https://github.com/miiiingyuuu/battery-cycle-life-prediction)이다. 분석·코드·실행 노트북·README를 이 저장소에서 제공한다. 반별 Slack thread 제출은 아직 수행하지 않았다. 과제의 Day2 제출 마감은 16시다. 검토 문서와 실행 감사 기록의 제출 상태는 해당 검토 시점의 기록이다.\n"
-    (PROJECT_DIR / "README.md").write_text(readme, encoding="utf-8")
+    # 제출용 README는 직접 관리하며 보고서 재생성 시 덮어쓰지 않습니다.
 
 
 def write_review():
@@ -503,7 +486,7 @@ def main():
     write_review()
     write_notebook(sections)
     print(
-        "README·Day2 보고서·요구사항/자체채점·노트북 생성 완료. 코드 변경 시 노트북을 전체 실행하세요."
+        "Day2 보고서·검토 문서·노트북 생성 완료. README는 유지합니다. 코드 변경 시 노트북을 전체 실행하세요."
     )
 
 

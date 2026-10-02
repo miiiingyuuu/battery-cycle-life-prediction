@@ -220,8 +220,6 @@ Day1 EDA의 버전 감사는 PDF 생성용 `reportlab`·`pymupdf`가 없어도 �
 ├── DAY1-EDA-울산_1반-박민규.ipynb
 ├── DAY2-Modeling-울산_1반-박민규.ipynb
 ├── DAY2-Report-울산_1반-박민규.md
-├── DAY2-Requirements-Check.md
-├── DAY2-Rubric-Review.md
 ├── data/README.md
 ├── src/
 │   ├── day1_eda.py
@@ -298,69 +296,6 @@ def write_documents(sections):
         report, encoding="utf-8"
     )
     # 제출용 README는 직접 관리하며 보고서 재생성 시 덮어쓰지 않습니다.
-
-
-def write_review():
-    requirements = """# Day2 요구사항 최종 대조
-
-기준: [DS Mini Project](https://actually-war-1ea.notion.site/DS-Mini-Project-32d7f4c8669380338a27f90c471c1fcb)의 Task → Day2, Deliverables, 산출물 평가 항목. 울산 1반 박민규.
-
-| 요구사항 | 상태 | 실제 증거 |
-| --- | --- | --- |
-| Day1 전략 기반 모델 개발 | 충족 | A/B/C, 용량 변화량 추가·대체, 충전시간 평균·중앙값·제외; 39개 후보 |
-| Regression 또는 Classification 택1 | 충족 | y=cycle_life 회귀; 분류 지표는 해당 없음 |
-| Batch 1 학습·Batch 2 시험 | 충족 | B1 46개 전체 재학습; B2 유효 라벨 39개; evaluation_audit.json |
-| Batch 1 CV 평균 | 충족 | 개발 35셀 정책 GroupKFold 5개; cv_folds.csv |
-| Batch 1 Hold-out | 충족 | 별도 11셀·5정책; experiment_manifest.json |
-| 셀·충전 프로토콜 분리 | 충족 | Hold-out/CV 정책 중복 0; verify_day2.py |
-| 누수 없는 전처리·핵심 변수 | 충족 | 초기 피처 허용 목록, fold train median/scaler, 로그 역변환 |
-| MAPE 및 필수 6행 보고 형식 | 충족 | results/day2/model_performance.csv와 README |
-| Train–Valid / Valid–Test / Target–Test | 충족 | 각 Gap 산식·%p·해석 명시 |
-| 논문 9.1%와 Batch 2 비교 | 충족 | 실제 31.529%, +22.429%p; 목표 미달·조건 차이 명시 |
-| Batch 3 추가 검증 | 선택 항목 충족 | 동일 모델 44셀; MAPE 12.591%, B3−B2 -18.939%p |
-| Batch 3 측정·분포·이상치 주의 | 충족 | newstructure·장수명 외삽·라벨 감사; 일괄 삭제 안 함 |
-| EDA 요약 및 피처·모델 선택 근거 | 충족 | README 및 Day2 보고서의 Day1→구현·39개 비교·1-SE 선택 |
-| README 샘플의 독립 EDA 요약 | 보완 완료 | 수명 비율·분포 형태·Knee·장단 ΔQ·정책 평균을 실측 CSV에서 직접 요약 |
-| Warm-up 재학습 주기·조건 | 계획 구체화 완료 | 주간/월간/분기 점검, 촉발 조건, 신규 Hold-out·승인·버전 관리. 현장 미검증 제안이며 운영 자동화는 미구현 |
-| 오류 분석 | 충족 | 최악 셀, 수명 구간·정책·입력 범위별 결과 및 개선 방향 |
-| ESS 활용 의미·한계 | 충족 | 점검·교체 위험, 단수명 과대 예측, 현장 검증·팩/달력 열화 |
-| 환경·파일 구조·재현 명령·참고문헌·팀 | 충족 | README, requirements, data/README.md |
-| 실행 가능한 코드·노트북 | 충족 | day2_modeling.py, verify_day2.py, DAY2-Modeling 노트북; notebook_execution.json |
-| GitHub public 링크 | 충족 | [과제 공개 저장소](https://github.com/miiiingyuuu/battery-cycle-life-prediction); main에 제출 파일 업로드 완료 |
-
-**검토 범위는 저장소의 분석·코드·보고 내용과 공개 링크다.** 해당 내용은 충족하며, 제출 시각과 외부 제출 절차는 검토 범위에서 제외한다. 목표 9.1%의 달성은 실패했지만, 성능 비교·Gap 보고 요구는 충족했다. 낮은 test 성능을 숨기거나 test에 맞춰 선택을 변경하지 않는다.
-
-`results/day2/verification.json`은 분할·피처·전처리·지표·모델 재현을 검증한 결과다. 노트북 실제 실행 검사는 `results/day2/notebook_execution.json`에 기록한다.
-
-최종 검증 결과: 노트북 9개 코드 셀 실행·PNG 출력 3개·오류 0개. ZIP을 별도 폴더에 풀어 원본 MAT 없이 학습/검증을 실행했으며 성능 차이는 0이었다(`clean_reproduction.json`).
-"""
-    (PROJECT_DIR / "DAY2-Requirements-Check.md").write_text(
-        requirements, encoding="utf-8"
-    )
-    review = """# Day2 채점표 기반 자체 평가
-
-울산 1반 박민규. 공식 점수가 아니며, 과제 페이지의 20/40/20/20 배점에 따라 로컬 산출물을 보수적으로 검토했다. 과제용 공개 저장소에 제출 파일이 업로드되어 있다. 외부 제출 절차와 제출 시각은 자체 평가 범위에서 제외한다.
-
-| 평가 항목 | 배점 | 자체 점수 | 충족 근거 | 감점 가능성 |
-| --- | --- | --- | --- | --- |
-| 전략 → 구현 반영 | 20 | 20 | Day1 A/B/C·대체 세트, raw/log 타깃, 고정 1-SE 선택, fold 내 품질 민감도 모두 구현 | 추가 피처가 성능을 개선하지 않았다는 결과도 그대로 해석 |
-| Pipeline 개발 | 40 | 38 | 정책 그룹 CV/Hold-out, fold train 전처리, 명시적 초기 X, 전체 B1 재학습, B2/B3 시험, 저장 모델 재현 | 개발 35셀 대비 39후보 선택 불확실성, 연속 셀·검열 라벨 정합 미확정 |
-| 성능 리포팅 및 해석 | 20 | 18 | 6개 필수 행·3개 선택 행, MAPE/%p 산식, 9.1% 비교, 보조 지표·최악 셀·그룹 오차 | B2 31.529%로 목표 미달, 논문과 조건 일치 및 저하 원인의 독립 검증 부족 |
-| 분석 결과 해석 | 20 | 18 | 단수명 과대 예측의 늦은 교체 위험, 장수명 과소 예측 비용, 현장·팩·달력 열화 한계와 개선 계획 | 실제 ESS 데이터와 비용·불확실성 검증은 수행하지 않음 |
-| 합계 | 100 | **94** | 로컬 분석·문서 기준 | 실제 채점은 강사 판단에 따름 |
-
-## 판정
-
-- Day2 분석·코드·보고 형식과 README 내용 및 공개 저장소 업로드는 충족했다. 논문 목표 성능의 달성을 뜻하지 않는다.
-- 목표 MAPE 9.1%는 미달이다. 채점표에는 목표 달성 자체의 별도 배점이 명시되지 않았으므로 위 점수는 목표 미달에 대한 공식 감점 공식을 뜻하지 않는다. 일반화와 근거의 부족을 보수적으로 반영한 자체 판단이다.
-- 94점은 저장소 내용에 대한 비공식 자체 추정치다. 외부 제출 절차와 제출 시각은 평가하지 않는다.
-- 한계의 정직한 기재는 완료했지만, 한계를 해소한 것은 아니다. 추가 개발 데이터 없이 이미 본 Batch 2에 맞춘 재튜닝으로 목표를 맞추는 것은 적절한 최종 평가가 아니다.
-
-## 실행 검증
-
-분할·전처리·피처·로그 역변환·129개 예측·MAPE/Gap·저장 모델 재현 검사는 `verification.json`에, 노트북 실행 검사는 `notebook_execution.json`에 있다. 이 검증은 통계적 일반화나 실제 ESS 배포 적합성의 보증이 아니다.
-"""
-    (PROJECT_DIR / "DAY2-Rubric-Review.md").write_text(review, encoding="utf-8")
 
 
 def write_notebook(sections):
@@ -482,10 +417,9 @@ print('모델·성능 재현 검증 완료. Batch 2 MAPE는 31.529%로 논문 �
 def main():
     sections = make_sections()
     write_documents(sections)
-    write_review()
     write_notebook(sections)
     print(
-        "Day2 보고서·검토 문서·노트북 생성 완료. README는 유지합니다. 코드 변경 시 노트북을 전체 실행하세요."
+        "Day2 보고서·노트북 생성 완료. README는 유지합니다. 코드 변경 시 노트북을 전체 실행하세요."
     )
 
 

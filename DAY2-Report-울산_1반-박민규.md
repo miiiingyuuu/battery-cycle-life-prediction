@@ -257,8 +257,6 @@ Day1 EDA의 버전 감사는 PDF 생성용 `reportlab`·`pymupdf`가 없어도 �
 ├── DAY1-EDA-울산_1반-박민규.ipynb
 ├── DAY2-Modeling-울산_1반-박민규.ipynb
 ├── DAY2-Report-울산_1반-박민규.md
-├── DAY2-Requirements-Check.md
-├── DAY2-Rubric-Review.md
 ├── data/README.md
 ├── src/
 │   ├── day1_eda.py

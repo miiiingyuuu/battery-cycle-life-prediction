@@ -12,7 +12,10 @@ REPOSITORY_NAME = "battery-cycle-life-prediction"
 def package():
     files = [PROJECT_DIR / ".gitignore", PROJECT_DIR / "README.md"]
     files += list(PROJECT_DIR.glob("requirements*.txt"))
-    files += [path for path in PROJECT_DIR.glob("DAY*.md") if "Draft" not in path.name]
+    files += [
+        path for path in PROJECT_DIR.glob("DAY*.md")
+        if not any(label in path.name for label in ["Draft", "Review", "Requirements-Check"])
+    ]
     files += list(PROJECT_DIR.glob("DAY*.ipynb"))
     files += list((PROJECT_DIR / "src").glob("*.py"))
     files += [PROJECT_DIR / "data/README.md"]

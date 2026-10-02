@@ -7,3 +7,8 @@ __pycache__/
 data/battery-cycle/
 *.mat
 output/repository/
+
+# 개인 확인용 검토 문서
+private-reviews/
+DAY*-*Review*.md
+DAY*-Requirements-Check.md

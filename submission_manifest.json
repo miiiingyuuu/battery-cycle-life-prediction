@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 110,
-      "sha256": "b42e9daabcf08830130cde8281507930802332d96f9be78f221516cca301e147"
+      "bytes": 205,
+      "sha256": "eb106031c9ce3f8dca5d6ac4143780ec47ee8792c4c43edcfa5d6326cc338939"
     },
     {
       "path": "DAY1-Design-울산_1반-박민규.md",
@@ -17,39 +17,14 @@
       "sha256": "118e435f8085d609f5ced7d40d7d440be44a293062f3a48c9696e7eaa0100d30"
     },
     {
-      "path": "DAY1-Requirements-Check.md",
-      "bytes": 3473,
-      "sha256": "977f6621bc6d52a1002fae6eaca3c004827c6eb4678cf22e50d82073d5a281cd"
-    },
-    {
-      "path": "DAY1-Rubric-Review.md",
-      "bytes": 2541,
-      "sha256": "edda53d4a79c821aaae2fd83e6afc89cd2ee8bb136eeba5a6f828ca02f63a752"
-    },
-    {
-      "path": "DAY2-Final-Review-울산_1반-박민규.md",
-      "bytes": 12995,
-      "sha256": "0554d897b5bfa79b0b23a29ab82e4b2fd2b12c0e32c1258b4502a3f8279b7f09"
-    },
-    {
       "path": "DAY2-Modeling-울산_1반-박민규.ipynb",
       "bytes": 366985,
       "sha256": "78011af48cfb7939274457e007f79ab10a9b1fe23802fcad60ecc79a802289a8"
     },
     {
       "path": "DAY2-Report-울산_1반-박민규.md",
-      "bytes": 25441,
-      "sha256": "29b52a3347fac8cb4f9f09b1f744c5447bef07a7f41439eb2ca66d3259efeb81"
-    },
-    {
-      "path": "DAY2-Requirements-Check.md",
-      "bytes": 3479,
-      "sha256": "d5ddb37df53deafdfa0a97cad3f01306d12664454b85e5890e3ba476c1fb3b51"
-    },
-    {
-      "path": "DAY2-Rubric-Review.md",
-      "bytes": 2635,
-      "sha256": "63b715059d6bec6d25ba103fc8d3d93be8d75bbbf7767fce9d9430f7018ca95e"
+      "bytes": 25372,
+      "sha256": "8b1177cba787f637c932c09dd0eae5293bd4f8e33ea4726d081efff5f30f0a85"
     },
     {
       "path": "README.md",
@@ -323,8 +298,8 @@
     },
     {
       "path": "src/build_day2_artifacts.py",
-      "bytes": 36868,
-      "sha256": "3e7db9570bdaae50ea85f66eb48f914a9a167645054af7a7990163f5d17ac8f1"
+      "bytes": 30396,
+      "sha256": "1d5cc3cfef9240b6231d3df37fdf82bafeddb1b4e1a006d303b5b29f6ac71b27"
     },
     {
       "path": "src/day1_charge_analysis.py",
@@ -348,8 +323,8 @@
     },
     {
       "path": "src/package_repository.py",
-      "bytes": 2528,
-      "sha256": "83cebcc8cc7fe3afbee1e9b933a4eca74a468fb4de3cf660d58359ab69f32296"
+      "bytes": 2608,
+      "sha256": "55d0991b5be26e2ca4f58b17568df186b2fee72345ec85dceee9e84dfc2f50a1"
     },
     {
       "path": "src/verify_day2.py",

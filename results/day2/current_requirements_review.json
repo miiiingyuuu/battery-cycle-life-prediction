@@ -2,7 +2,6 @@
   "review_date": "2026-10-02",
   "day2_model_verification": "PASS",
   "day2_required_content": "present",
-  "public_link_and_slack_submission": "not_verified",
   "paper_MAPE_target_met": false,
   "optional_pdf_metadata_regression": "PASS",
   "required_metadata_error_not_suppressed": "PASS",
@@ -49,7 +48,13 @@
       ],
       "error_outputs": [],
       "embedded_png_outputs": 3,
-      "sha256": "901a404c9adde00d8c3a8ed0d1d917694ac02ab16c1e9caacf0ed88ce28c4f80"
+      "sha256": "78011af48cfb7939274457e007f79ab10a9b1fe23802fcad60ecc79a802289a8"
     }
-  }
+  },
+  "public_repository": {
+    "status": "PASS",
+    "url": "https://github.com/miiiingyuuu/battery-cycle-life-prediction",
+    "public": true
+  },
+  "review_scope": "repository content, execution evidence, public repository; external submission procedure and timing excluded"
 }

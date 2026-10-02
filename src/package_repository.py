@@ -35,8 +35,8 @@ def package():
             for path in files
         ],
         "contains_raw_mat": False,
-        "public_repository_created": False,
-        "slack_submitted": False,
+        "public_repository_created": True,
+        "repository_url": "https://github.com/miiiingyuuu/battery-cycle-life-prediction",
     }
     with zipfile.ZipFile(output, "w", zipfile.ZIP_DEFLATED) as archive:
         for path in files:

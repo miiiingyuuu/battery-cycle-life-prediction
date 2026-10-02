@@ -28,13 +28,13 @@
     },
     {
       "path": "DAY2-Final-Review-울산_1반-박민규.md",
-      "bytes": 12656,
-      "sha256": "d2d720afe11e2058310acfb2e86249af35ead1bb98808a1fc396d86b94981fe8"
+      "bytes": 12995,
+      "sha256": "0554d897b5bfa79b0b23a29ab82e4b2fd2b12c0e32c1258b4502a3f8279b7f09"
     },
     {
       "path": "DAY2-Modeling-울산_1반-박민규.ipynb",
-      "bytes": 366960,
-      "sha256": "901a404c9adde00d8c3a8ed0d1d917694ac02ab16c1e9caacf0ed88ce28c4f80"
+      "bytes": 366985,
+      "sha256": "78011af48cfb7939274457e007f79ab10a9b1fe23802fcad60ecc79a802289a8"
     },
     {
       "path": "DAY2-Report-울산_1반-박민규.md",
@@ -43,13 +43,13 @@
     },
     {
       "path": "DAY2-Requirements-Check.md",
-      "bytes": 3496,
-      "sha256": "f798bf6e736b94e778bf695c555d2512d485f053e6f12d9bd6cca8d34fa75687"
+      "bytes": 3479,
+      "sha256": "d5ddb37df53deafdfa0a97cad3f01306d12664454b85e5890e3ba476c1fb3b51"
     },
     {
       "path": "DAY2-Rubric-Review.md",
-      "bytes": 2642,
-      "sha256": "2e8a44d859828bde20c70447636952f8ea6ea6ae82d6448985aa6dc0c6d42260"
+      "bytes": 2635,
+      "sha256": "63b715059d6bec6d25ba103fc8d3d93be8d75bbbf7767fce9d9430f7018ca95e"
     },
     {
       "path": "README.md",
@@ -113,8 +113,8 @@
     },
     {
       "path": "results/day2/current_requirements_review.json",
-      "bytes": 1238,
-      "sha256": "842f863fc5c61a8f4bffa38684f79c408600f5ca6ecf1a36ca716c8d6a66a3e4"
+      "bytes": 1460,
+      "sha256": "40046ed8719a260674b6f8f7113909e2f2ee5eeaaa8f24306245a87151a2d0ed"
     },
     {
       "path": "results/day2/cv_all_predictions.csv",
@@ -323,8 +323,8 @@
     },
     {
       "path": "src/build_day2_artifacts.py",
-      "bytes": 36858,
-      "sha256": "f9ee02a5772c334d6ab14b3f5a50818f12128d2f20df30b6a639dfac096189fc"
+      "bytes": 36868,
+      "sha256": "3e7db9570bdaae50ea85f66eb48f914a9a167645054af7a7990163f5d17ac8f1"
     },
     {
       "path": "src/day1_charge_analysis.py",
@@ -348,8 +348,8 @@
     },
     {
       "path": "src/package_repository.py",
-      "bytes": 2473,
-      "sha256": "5ec0e5eacf7ea60acf736730bc61963dd204b8be200cdace3789bb0139a6d004"
+      "bytes": 2528,
+      "sha256": "83cebcc8cc7fe3afbee1e9b933a4eca74a468fb4de3cf660d58359ab69f32296"
     },
     {
       "path": "src/verify_day2.py",
@@ -359,6 +359,5 @@
   ],
   "contains_raw_mat": false,
   "public_repository_created": true,
-  "slack_submitted": false,
   "repository_url": "https://github.com/miiiingyuuu/battery-cycle-life-prediction"
 }

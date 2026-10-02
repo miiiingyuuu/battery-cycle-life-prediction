@@ -23,10 +23,9 @@
 | ESS 활용 의미·한계 | 충족 | 점검·교체 위험, 단수명 과대 예측, 현장 검증·팩/달력 열화 |
 | 환경·파일 구조·재현 명령·참고문헌·팀 | 충족 | README, requirements, data/README.md |
 | 실행 가능한 코드·노트북 | 충족 | day2_modeling.py, verify_day2.py, DAY2-Modeling 노트북; notebook_execution.json |
-| GitHub public 링크 | 미완료 | 로컬 제출 패키지만 준비; 새 원격 저장소 없음 |
-| 반별 Slack thread 제출 | 미완료 | 외부 메시지 전송은 수행하지 않음 |
+| GitHub public 링크 | 충족 | [과제 공개 저장소](https://github.com/miiiingyuuu/battery-cycle-life-prediction); main에 제출 파일 업로드 완료 |
 
-**분석·문서 요구사항과 제출 절차를 구분해야 한다.** 공개 GitHub 링크와 Slack 제출이 남아 있어 전체 제출 완료라고 판단하지 않는다. 목표 9.1%의 달성은 실패했지만, 성능 비교·Gap 보고 요구는 충족했다. 낮은 test 성능을 숨기거나 test에 맞춰 선택을 변경하지 않는다.
+**검토 범위는 저장소의 분석·코드·보고 내용과 공개 링크다.** 해당 내용은 충족하며, 제출 시각과 외부 제출 절차는 검토 범위에서 제외한다. 목표 9.1%의 달성은 실패했지만, 성능 비교·Gap 보고 요구는 충족했다. 낮은 test 성능을 숨기거나 test에 맞춰 선택을 변경하지 않는다.
 
 `results/day2/verification.json`은 분할·피처·전처리·지표·모델 재현을 검증한 결과다. 노트북 실제 실행 검사는 `results/day2/notebook_execution.json`에 기록한다.
 

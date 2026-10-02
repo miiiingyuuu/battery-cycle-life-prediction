@@ -1,0 +1,162 @@
+{
+  "audits": [
+    {
+      "batch": 1,
+      "file": "2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 3025320241,
+      "cells": 46,
+      "summary_keys": [
+        "IR",
+        "QCharge",
+        "QDischarge",
+        "Tavg",
+        "Tmax",
+        "Tmin",
+        "chargetime",
+        "cycle"
+      ],
+      "cycle_keys": [
+        "I",
+        "Qc",
+        "Qd",
+        "Qdlin",
+        "T",
+        "Tdlin",
+        "V",
+        "discharge_dQdV",
+        "t"
+      ],
+      "voltage_min": 2.0,
+      "voltage_max": 3.5,
+      "voltage_points": 1000
+    },
+    {
+      "batch": 2,
+      "file": "2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 2022599329,
+      "cells": 47,
+      "summary_keys": [
+        "IR",
+        "QCharge",
+        "QDischarge",
+        "Tavg",
+        "Tmax",
+        "Tmin",
+        "chargetime",
+        "cycle"
+      ],
+      "cycle_keys": [
+        "I",
+        "Qc",
+        "Qd",
+        "Qdlin",
+        "T",
+        "Tdlin",
+        "V",
+        "discharge_dQdV",
+        "t"
+      ],
+      "voltage_min": 2.0,
+      "voltage_max": 3.5,
+      "voltage_points": 1000
+    },
+    {
+      "batch": 3,
+      "file": "2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+      "bytes": 3236690412,
+      "cells": 46,
+      "summary_keys": [
+        "IR",
+        "QCharge",
+        "QDischarge",
+        "Tavg",
+        "Tmax",
+        "Tmin",
+        "chargetime",
+        "cycle"
+      ],
+      "cycle_keys": [
+        "I",
+        "Qc",
+        "Qd",
+        "Qdlin",
+        "T",
+        "Tdlin",
+        "V",
+        "discharge_dQdV",
+        "t"
+      ],
+      "voltage_min": 2.0,
+      "voltage_max": 3.5,
+      "voltage_points": 1000
+    }
+  ],
+  "stats": [
+    {
+      "batch": 1,
+      "n": 46,
+      "label_n": 46,
+      "label_missing": 0,
+      "min": 534.0,
+      "q25": 703.25,
+      "median": 858.5,
+      "mean": 844.7173913043479,
+      "q75": 914.25,
+      "max": 1227.0,
+      "short_lt500": 0,
+      "long_gt1000": 10,
+      "below550": 1,
+      "dq_valid": 46,
+      "last_above088": 46,
+      "bad_QD_rows": 48
+    },
+    {
+      "batch": 2,
+      "n": 47,
+      "label_n": 39,
+      "label_missing": 8,
+      "min": 392.0,
+      "q25": 439.5,
+      "median": 472.0,
+      "mean": 565.7435897435897,
+      "q75": 508.5,
+      "max": 1186.0,
+      "short_lt500": 28,
+      "long_gt1000": 3,
+      "below550": 30,
+      "dq_valid": 47,
+      "last_above088": 8,
+      "bad_QD_rows": 11
+    },
+    {
+      "batch": 3,
+      "n": 46,
+      "label_n": 44,
+      "label_missing": 2,
+      "min": 541.0,
+      "q25": 828.0,
+      "median": 1005.5,
+      "mean": 1059.659090909091,
+      "q75": 1155.25,
+      "max": 1935.0,
+      "short_lt500": 0,
+      "long_gt1000": 23,
+      "below550": 1,
+      "dq_valid": 46,
+      "last_above088": 46,
+      "bad_QD_rows": 0
+    }
+  ],
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "versions": {
+    "h5py": "3.16.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "scipy": "1.18.1",
+    "reportlab": "5.0.1",
+    "pymupdf": "1.28.2"
+  },
+  "missing_optional_pdf_packages": [],
+  "seed": 42
+}

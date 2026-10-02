@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "extracted_file_hashes_verified": 71,
+  "original_raw_mat_required": false,
+  "clean_directory_modeling": "PASS",
+  "clean_directory_verification": "PASS",
+  "performance_matches": true,
+  "max_metric_difference": 0.0
+}

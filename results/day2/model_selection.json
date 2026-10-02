@@ -1,0 +1,26 @@
+{
+  "best_mean_candidate": "A_linear_log10_a0",
+  "best_mean_MAPE_pct": 7.134497042601943,
+  "best_SE_pct": 1.0775738647085282,
+  "one_SE_threshold_pct": 8.212070907310471,
+  "eligible_candidates": [
+    "A_linear_raw_a0",
+    "A_linear_log10_a0",
+    "B_ridge_raw_a1",
+    "B_charge_mean_ridge_raw_a0.1",
+    "B_charge_mean_ridge_raw_a1"
+  ],
+  "selected_candidate": "A_linear_raw_a0",
+  "selected_spec": {
+    "feature_set": "A",
+    "estimator": "linear",
+    "target": "raw",
+    "alpha": 0.0
+  },
+  "features": [
+    "dq_logvar"
+  ],
+  "selected_cv_mean_MAPE_pct": 7.200716344387925,
+  "selected_cv_std_MAPE_pct": 2.8118703457568004,
+  "rule": "fewest features, simplest model, raw target, stronger Ridge, lower CV MAPE"
+}

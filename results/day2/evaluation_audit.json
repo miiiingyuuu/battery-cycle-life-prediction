@@ -1,0 +1,62 @@
+{
+  "python": "3.14.7",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "input_sha256": "7004beb28b9a1ebc789e00e5da246d27841704b18ef9384867c6406606c8d545",
+  "selected_candidate": "A_linear_raw_a0",
+  "raw_batch_counts": {
+    "1": 46,
+    "2": 47,
+    "3": 46
+  },
+  "labeled_batch_counts": {
+    "1": 46,
+    "2": 39,
+    "3": 44
+  },
+  "development_n": 35,
+  "holdout_n": 11,
+  "development_policy_n": 18,
+  "holdout_policy_n": 5,
+  "candidate_n": 39,
+  "metrics": {
+    "Hold-out B1": {
+      "MAPE_pct": 13.143946264257933,
+      "MAE_cycles": 123.48541876101154,
+      "RMSE_cycles": 151.0292710102405,
+      "R2": 0.3622915425877361
+    },
+    "Test B2": {
+      "MAPE_pct": 31.52907097330911,
+      "MAE_cycles": 155.58845173936453,
+      "RMSE_cycles": 169.5563152442445,
+      "R2": 0.4023946567204464
+    },
+    "Test B3": {
+      "MAPE_pct": 12.590543552458486,
+      "MAE_cycles": 157.5043303258112,
+      "RMSE_cycles": 258.8993735559201,
+      "R2": 0.3037784555328853
+    },
+    "CV pooled OOF": {
+      "MAPE_pct": 7.290069661490091,
+      "MAE_cycles": 60.527044194043576,
+      "RMSE_cycles": 75.47930520100809,
+      "R2": 0.8193550800334499
+    }
+  },
+  "negative_predictions_n": 0,
+  "selection_uses": "Batch 1 development CV only; no hold-out/B2/B3 scores",
+  "limitations": [
+    "External labels were explored in required Day1 EDA.",
+    "CV scores used for selection are not unbiased generalization estimates.",
+    "Small non-independent group folds; fold SE is a heuristic.",
+    "Raw labels retained; censored/continuation labels need author-level audit."
+  ]
+}

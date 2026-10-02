@@ -1,0 +1,55 @@
+{
+  "review_date": "2026-10-02",
+  "day2_model_verification": "PASS",
+  "day2_required_content": "present",
+  "public_link_and_slack_submission": "not_verified",
+  "paper_MAPE_target_met": false,
+  "optional_pdf_metadata_regression": "PASS",
+  "required_metadata_error_not_suppressed": "PASS",
+  "verified_python": "/private/tmp/battery-kaggle-venv/bin/python",
+  "current_notebooks": {
+    "DAY1-EDA-울산_1반-박민규.ipynb": {
+      "status": "PASS",
+      "code_cells": 16,
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "error_outputs": [],
+      "embedded_png_outputs": 12,
+      "sha256": "118e435f8085d609f5ced7d40d7d440be44a293062f3a48c9696e7eaa0100d30"
+    },
+    "DAY2-Modeling-울산_1반-박민규.ipynb": {
+      "status": "PASS",
+      "code_cells": 9,
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "error_outputs": [],
+      "embedded_png_outputs": 3,
+      "sha256": "901a404c9adde00d8c3a8ed0d1d917694ac02ab16c1e9caacf0ed88ce28c4f80"
+    }
+  }
+}

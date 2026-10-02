@@ -1,0 +1,27 @@
+[
+  {
+    "fold": 1,
+    "n": 8,
+    "rho_squared_dq_residual": 0.3333333333333334
+  },
+  {
+    "fold": 2,
+    "n": 8,
+    "rho_squared_dq_residual": 0.4523809523809524
+  },
+  {
+    "fold": 3,
+    "n": 7,
+    "rho_squared_dq_residual": 0.21428571428571433
+  },
+  {
+    "fold": 4,
+    "n": 6,
+    "rho_squared_dq_residual": 0.6
+  },
+  {
+    "fold": 5,
+    "n": 6,
+    "rho_squared_dq_residual": -0.2571428571428572
+  }
+]

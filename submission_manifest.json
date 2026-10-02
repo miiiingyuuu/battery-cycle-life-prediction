@@ -1,0 +1,364 @@
+{
+  "repository_name": "battery-cycle-life-prediction",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 110,
+      "sha256": "b42e9daabcf08830130cde8281507930802332d96f9be78f221516cca301e147"
+    },
+    {
+      "path": "DAY1-Design-울산_1반-박민규.md",
+      "bytes": 44923,
+      "sha256": "5e5dc35ce7b48a98a04dcf2701231e9b63d74a2480f6bf5e491d30eb2b8024f2"
+    },
+    {
+      "path": "DAY1-EDA-울산_1반-박민규.ipynb",
+      "bytes": 1181174,
+      "sha256": "118e435f8085d609f5ced7d40d7d440be44a293062f3a48c9696e7eaa0100d30"
+    },
+    {
+      "path": "DAY1-Requirements-Check.md",
+      "bytes": 3473,
+      "sha256": "977f6621bc6d52a1002fae6eaca3c004827c6eb4678cf22e50d82073d5a281cd"
+    },
+    {
+      "path": "DAY1-Rubric-Review.md",
+      "bytes": 2541,
+      "sha256": "edda53d4a79c821aaae2fd83e6afc89cd2ee8bb136eeba5a6f828ca02f63a752"
+    },
+    {
+      "path": "DAY2-Final-Review-울산_1반-박민규.md",
+      "bytes": 12656,
+      "sha256": "d2d720afe11e2058310acfb2e86249af35ead1bb98808a1fc396d86b94981fe8"
+    },
+    {
+      "path": "DAY2-Modeling-울산_1반-박민규.ipynb",
+      "bytes": 366960,
+      "sha256": "901a404c9adde00d8c3a8ed0d1d917694ac02ab16c1e9caacf0ed88ce28c4f80"
+    },
+    {
+      "path": "DAY2-Report-울산_1반-박민규.md",
+      "bytes": 25441,
+      "sha256": "29b52a3347fac8cb4f9f09b1f744c5447bef07a7f41439eb2ca66d3259efeb81"
+    },
+    {
+      "path": "DAY2-Requirements-Check.md",
+      "bytes": 3496,
+      "sha256": "f798bf6e736b94e778bf695c555d2512d485f053e6f12d9bd6cca8d34fa75687"
+    },
+    {
+      "path": "DAY2-Rubric-Review.md",
+      "bytes": 2642,
+      "sha256": "2e8a44d859828bde20c70447636952f8ea6ea6ae82d6448985aa6dc0c6d42260"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19331,
+      "sha256": "10a730ac89dcc77fb202f998fdcd3bf4df2375f90fec1f4e166b2938c3ce0d01"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 1727,
+      "sha256": "7ae41ec72ba3a7fd8ad4c61f2a0bdd9d2d125754aa9eb2509fd9b5442cf0a843"
+    },
+    {
+      "path": "output/pdf/DS-MINI-Design-울산_1반-박민규.pdf",
+      "bytes": 1068380,
+      "sha256": "80755057afcd3aeeb48e71b94415fe0f2563f8eccae22744a05037a1124f8c32"
+    },
+    {
+      "path": "requirements-notebook.txt",
+      "bytes": 71,
+      "sha256": "ca7110c0d36f2fea0119e2f07ecf26fa0447ae13939bad78ed97058ff464c062"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 158,
+      "sha256": "a077fcfcaadf8583cf65067df8b1fedaf9f9364af287960dffeddb6a439b8b54"
+    },
+    {
+      "path": "results/audit.json",
+      "bytes": 3206,
+      "sha256": "d50d6ba1abcad95d3e9d414c5264d19aec6572a9ca207f9adc3be52049d9eb71"
+    },
+    {
+      "path": "results/batch_stats.csv",
+      "bytes": 355,
+      "sha256": "c95354a2ed69489771bda9b2fdd026ded1306a2d409069783223029a51fd0463"
+    },
+    {
+      "path": "results/cell_features.csv",
+      "bytes": 80301,
+      "sha256": "7004beb28b9a1ebc789e00e5da246d27841704b18ef9384867c6406606c8d545"
+    },
+    {
+      "path": "results/charge_time_audit.csv",
+      "bytes": 154,
+      "sha256": "9ceea2d43454a894a767b05b7ae79686d74087486fd6b6bd1e805be7aceec74f"
+    },
+    {
+      "path": "results/charge_time_cells.csv",
+      "bytes": 11946,
+      "sha256": "f00125a0a13d8e6b819634b6f960ab32b418fca46a04af5644785372177d417d"
+    },
+    {
+      "path": "results/correlations.csv",
+      "bytes": 2751,
+      "sha256": "f5762911c76578c4aaa57726f7f9f801dae09675df8cd2ab3d276c1e5d268e19"
+    },
+    {
+      "path": "results/day2/clean_reproduction.json",
+      "bytes": 243,
+      "sha256": "f9957999eb6da06bba5721562a526a9bacdce7a9718d8351ab9978795dfc05d6"
+    },
+    {
+      "path": "results/day2/current_requirements_review.json",
+      "bytes": 1238,
+      "sha256": "842f863fc5c61a8f4bffa38684f79c408600f5ca6ecf1a36ca716c8d6a66a3e4"
+    },
+    {
+      "path": "results/day2/cv_all_predictions.csv",
+      "bytes": 159926,
+      "sha256": "35347dadab932cced590509175ee0e11428e0d72f32c6b9b4ffbe725594dcb7a"
+    },
+    {
+      "path": "results/day2/cv_candidates.csv",
+      "bytes": 6498,
+      "sha256": "00a539a1b9724e9cd8a1b161c77c6de296bb32ea6972a4a8e4497af138fbcaa8"
+    },
+    {
+      "path": "results/day2/cv_folds.csv",
+      "bytes": 20564,
+      "sha256": "02db0f00dc2e0e14475957f7afebcd57f18c60a0ec864a477f734b1925b3ee49"
+    },
+    {
+      "path": "results/day2/errors_by_life_group.csv",
+      "bytes": 548,
+      "sha256": "5c5aa37c8f5950cc67b286f4ddf4a889da41b1bd513a0558f89e0b7f871255c6"
+    },
+    {
+      "path": "results/day2/errors_by_policy.csv",
+      "bytes": 2579,
+      "sha256": "ca120ff8693346aaeae07ca5b4b8167390d59c21c57392214c9ce3b3d057f5f8"
+    },
+    {
+      "path": "results/day2/evaluation_audit.json",
+      "bytes": 1712,
+      "sha256": "57bcd43f4d57067c2cfaf462eabf22714c5d6d13d1ea2607b2aac5fe782e189f"
+    },
+    {
+      "path": "results/day2/experiment_manifest.json",
+      "bytes": 15992,
+      "sha256": "c37ba5e8f6d0a98c5b0f5ccb82927ec8ddaa8ab2c7e0ce98a4071184c70368d5"
+    },
+    {
+      "path": "results/day2/external_errors.csv",
+      "bytes": 12510,
+      "sha256": "667c5e36f720f799c8de384c0c7a19224ee41a84d903f6952e157b97fab081ff"
+    },
+    {
+      "path": "results/day2/feature_shift.csv",
+      "bytes": 264,
+      "sha256": "46c1b5421665dbe5cae5873bfe0f3e50b1ceceb1a2f4fd6b36fc8694761dbb01"
+    },
+    {
+      "path": "results/day2/figures/01_cv_comparison.png",
+      "bytes": 38599,
+      "sha256": "4e945f30f5daf27c10bd9149182011b5f5be61432dacf6ccdcc32b32f0d9b61d"
+    },
+    {
+      "path": "results/day2/figures/02_actual_vs_predicted.png",
+      "bytes": 112468,
+      "sha256": "5cd0f4f7c973c30c56d114cf06679c5a9ba0db5a480ed8b34020a0df09968449"
+    },
+    {
+      "path": "results/day2/figures/03_external_residuals.png",
+      "bytes": 56297,
+      "sha256": "c62ee9011857c7a6d51483aae84603be27ed87efda4d98cb9ace649579cd3196"
+    },
+    {
+      "path": "results/day2/final_model.joblib",
+      "bytes": 2127,
+      "sha256": "a3c4dad1970b01b03f1304b471c5fa3fdfe3da7219bf72d78ccc498f4289d569"
+    },
+    {
+      "path": "results/day2/model_performance.csv",
+      "bytes": 818,
+      "sha256": "624a5460b446706fe65207e3442587c47c13330d4d747447dd990faf0cb95f14"
+    },
+    {
+      "path": "results/day2/model_selection.json",
+      "bytes": 727,
+      "sha256": "5c8a56435afaed037d2b281d5b4c6adf9cc495aeb92930d28a6f042a562d0f3c"
+    },
+    {
+      "path": "results/day2/notebook_execution.json",
+      "bytes": 192,
+      "sha256": "d6d105a28be4db73c880f99ff2d4b2d370f501f2130503e25db7d1d35d83b81e"
+    },
+    {
+      "path": "results/day2/predictions.csv",
+      "bytes": 15401,
+      "sha256": "308990f1b093ff1f4bf8fa80a7253c4948efb8d06692b5dbb938f3aadf6bb868"
+    },
+    {
+      "path": "results/day2/quality_sensitivity_folds.csv",
+      "bytes": 654,
+      "sha256": "a69484f06c24cdd706c00fbff0f4cff3f64e45e3ce2f8cc13be0449a3a0ac5f1"
+    },
+    {
+      "path": "results/day2/quality_sensitivity_groups.csv",
+      "bytes": 224,
+      "sha256": "cefee0cb470c817a9355dcd2053876f7eeffab7b2fbd0170ae969239cd901aa5"
+    },
+    {
+      "path": "results/day2/quality_sensitivity_predictions.csv",
+      "bytes": 4523,
+      "sha256": "99d48b168d416ac14c7273ec91840a7a9d5dab09eae340dee1e634346f9c810f"
+    },
+    {
+      "path": "results/day2/residual_diagnostics.json",
+      "bytes": 419,
+      "sha256": "5a939e8ed71fa403b510a1ccce3a17cb7a8fc08c7263bda1094b3fde16f0c51f"
+    },
+    {
+      "path": "results/day2/verification.json",
+      "bytes": 784,
+      "sha256": "85b07c9fdf0b163328be4edd26b0430a4f162d5952d57f153b43bbcd081b1eb8"
+    },
+    {
+      "path": "results/diagnostic_summary.csv",
+      "bytes": 885,
+      "sha256": "e716768f9a8b391b48340f1ec3f3dab4bcc403d9a8e0546ea85416c4ded22902"
+    },
+    {
+      "path": "results/early_charge_records.csv",
+      "bytes": 399094,
+      "sha256": "4ce8974eff14fdc0b4f7d1a7456f438c7c294d2ff425933e878c5d1317c0334b"
+    },
+    {
+      "path": "results/figures/01_life.png",
+      "bytes": 19967,
+      "sha256": "790be6d630d93d90166ce52365bfdd410b29b64686cc91e66fb316e4fed6828a"
+    },
+    {
+      "path": "results/figures/02_degradation.png",
+      "bytes": 83007,
+      "sha256": "728cfd9a40b531ac288c616ba657c8d2fbced479a11426281e14617cfe9a3c5d"
+    },
+    {
+      "path": "results/figures/03_delta.png",
+      "bytes": 120100,
+      "sha256": "9d78eea0af017bde9db5e2091c9acca0784537762c120b4dd856bef5d6adc91e"
+    },
+    {
+      "path": "results/figures/04_delta_signal.png",
+      "bytes": 38517,
+      "sha256": "78bf9ce844daeab3428486cc19a422fb45a3907cb1d5e031c96919ace58604e0"
+    },
+    {
+      "path": "results/figures/05_policy.png",
+      "bytes": 71981,
+      "sha256": "46b6f3d7882acdf057368e80cd4ea10faa539b0c1bf8df30ffce81ae42fecf7c"
+    },
+    {
+      "path": "results/figures/06_crate.png",
+      "bytes": 43071,
+      "sha256": "facdd121fadd510d11d2accfe840e499c5a2003088500e5c7841a8873178d277"
+    },
+    {
+      "path": "results/figures/07_corr.png",
+      "bytes": 74627,
+      "sha256": "f9b6a89c1e96c71c0d6e8ce001c61e5797e77bbcb9119a8bf0b96156bd10647f"
+    },
+    {
+      "path": "results/figures/08_knee.png",
+      "bytes": 55493,
+      "sha256": "d93eb366d0ceef7966617c2dac850f2f60dbdfb5410fcdd7212c3debb3e9c62c"
+    },
+    {
+      "path": "results/figures/09_delta_relative.png",
+      "bytes": 87430,
+      "sha256": "dcc8eb11cf7c28f845774445553d10cadf3622a3099f5ca92ecf2018aef3451e"
+    },
+    {
+      "path": "results/figures/10_current_patterns.png",
+      "bytes": 81949,
+      "sha256": "8df5bdf5c356b732fc587284a8f67596b96fda93ff4d1073b49e19c67e962353"
+    },
+    {
+      "path": "results/figures/11_charge_time.png",
+      "bytes": 44384,
+      "sha256": "88c21112bf58c17389cd352cd577cd8e02dcca8e4b607063e2bfa31e78c73b5b"
+    },
+    {
+      "path": "results/figures/12_current_degradation.png",
+      "bytes": 43595,
+      "sha256": "968702302319392bf88d860a66bd594e30ea564fb099b0c0ab750c48276cbdb5"
+    },
+    {
+      "path": "results/policy_stats.csv",
+      "bytes": 2263,
+      "sha256": "3716ff65378f729ee400eb8753492186baf15a25a060da8371dd74625395936a"
+    },
+    {
+      "path": "results/relative_delta_groups.csv",
+      "bytes": 362,
+      "sha256": "365ec4d4c50d89fca901121df0629ac50d0d0b8bdcd6fda9079bd5e3e666327c"
+    },
+    {
+      "path": "results/run_log.txt",
+      "bytes": 11816,
+      "sha256": "fb37970b1a6e97ba4d6b081ecb6f046bc95f913cd5778bd026253428809cd5db"
+    },
+    {
+      "path": "src/build_day1_notebook.py",
+      "bytes": 14974,
+      "sha256": "3c00053ec9b08555a3e933ce1c14cf2d369e89625239e27eb51139c96bda7150"
+    },
+    {
+      "path": "src/build_day1_report.py",
+      "bytes": 69805,
+      "sha256": "f58993adb6cdbf9042bc19a6785d0118380a82f4ecc47cac74fff4551118c57c"
+    },
+    {
+      "path": "src/build_day2_artifacts.py",
+      "bytes": 40486,
+      "sha256": "2fea884cff3a4a54d96f9b07c71dda7a135f0034558f9307020a06d11896c348"
+    },
+    {
+      "path": "src/day1_charge_analysis.py",
+      "bytes": 5606,
+      "sha256": "4dad75cddb6e07574302a783c1a750f2f82bcaf4ab2eefa3d88e9624089a4597"
+    },
+    {
+      "path": "src/day1_eda.py",
+      "bytes": 30314,
+      "sha256": "cce60bf580183192c2048041b6a563ac1980235015cfbfed6c4ad32b8c9f488f"
+    },
+    {
+      "path": "src/day2_eda_summary.py",
+      "bytes": 5480,
+      "sha256": "9c276e5d4cd32f774a6e68c416ad0edd0b97245b6574b474c30ecfe8ae0132c0"
+    },
+    {
+      "path": "src/day2_modeling.py",
+      "bytes": 24327,
+      "sha256": "e1372458bff44bcfc2c80c0a5584e1da2ec3d0b5ce9524c89689f639f92148cf"
+    },
+    {
+      "path": "src/package_repository.py",
+      "bytes": 2473,
+      "sha256": "5ec0e5eacf7ea60acf736730bc61963dd204b8be200cdace3789bb0139a6d004"
+    },
+    {
+      "path": "src/verify_day2.py",
+      "bytes": 7580,
+      "sha256": "0b88dbb462f46c80db85eda1f31df79289b11e7f596e98ff05740c458bc49106"
+    }
+  ],
+  "contains_raw_mat": false,
+  "public_repository_created": true,
+  "slack_submitted": false,
+  "repository_url": "https://github.com/miiiingyuuu/battery-cycle-life-prediction"
+}

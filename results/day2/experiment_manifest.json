@@ -1,0 +1,814 @@
+{
+  "seed": 42,
+  "holdout_policy_fraction": 0.2,
+  "cv_folds": 5,
+  "input_sha256": "7004beb28b9a1ebc789e00e5da246d27841704b18ef9384867c6406606c8d545",
+  "development_ids": [
+    "b1c3",
+    "b1c4",
+    "b1c5",
+    "b1c6",
+    "b1c7",
+    "b1c8",
+    "b1c9",
+    "b1c10",
+    "b1c11",
+    "b1c12",
+    "b1c13",
+    "b1c16",
+    "b1c17",
+    "b1c20",
+    "b1c21",
+    "b1c22",
+    "b1c23",
+    "b1c24",
+    "b1c25",
+    "b1c26",
+    "b1c27",
+    "b1c30",
+    "b1c31",
+    "b1c32",
+    "b1c33",
+    "b1c36",
+    "b1c37",
+    "b1c38",
+    "b1c39",
+    "b1c40",
+    "b1c41",
+    "b1c42",
+    "b1c43",
+    "b1c44",
+    "b1c45"
+  ],
+  "holdout_ids": [
+    "b1c0",
+    "b1c1",
+    "b1c2",
+    "b1c14",
+    "b1c15",
+    "b1c18",
+    "b1c19",
+    "b1c28",
+    "b1c29",
+    "b1c34",
+    "b1c35"
+  ],
+  "development_policies": [
+    "4.4C(80%)-4.4C",
+    "4.8C(80%)-4.8C",
+    "4C(80%)-4C",
+    "5.4C(40%)-3.6C",
+    "5.4C(50%)-3.6C",
+    "5.4C(50%)-3C",
+    "5.4C(60%)-3.6C",
+    "5.4C(80%)-5.4C",
+    "6C(30%)-3.6C",
+    "6C(40%)-3.6C",
+    "6C(40%)-3C",
+    "6C(50%)-3.6C",
+    "6C(60%)-3C",
+    "7C(40%)-3.6C",
+    "7C(40%)-3C",
+    "8C(15%)-3.6C",
+    "8C(25%)-3.6C",
+    "8C(35%)-3.6C"
+  ],
+  "holdout_policies": [
+    "3.6C(80%)-3.6C",
+    "5.4C(60%)-3C",
+    "5.4C(70%)-3C",
+    "6C(50%)-3C",
+    "7C(30%)-3.6C"
+  ],
+  "folds": [
+    {
+      "fold": 1,
+      "train_ids": [
+        "b1c5",
+        "b1c6",
+        "b1c7",
+        "b1c8",
+        "b1c9",
+        "b1c10",
+        "b1c11",
+        "b1c12",
+        "b1c13",
+        "b1c16",
+        "b1c17",
+        "b1c22",
+        "b1c23",
+        "b1c24",
+        "b1c25",
+        "b1c26",
+        "b1c27",
+        "b1c30",
+        "b1c31",
+        "b1c36",
+        "b1c37",
+        "b1c38",
+        "b1c39",
+        "b1c40",
+        "b1c41",
+        "b1c42",
+        "b1c43"
+      ],
+      "valid_ids": [
+        "b1c3",
+        "b1c4",
+        "b1c20",
+        "b1c21",
+        "b1c32",
+        "b1c33",
+        "b1c44",
+        "b1c45"
+      ]
+    },
+    {
+      "fold": 2,
+      "train_ids": [
+        "b1c3",
+        "b1c4",
+        "b1c5",
+        "b1c8",
+        "b1c9",
+        "b1c10",
+        "b1c11",
+        "b1c12",
+        "b1c13",
+        "b1c20",
+        "b1c21",
+        "b1c22",
+        "b1c23",
+        "b1c24",
+        "b1c25",
+        "b1c26",
+        "b1c27",
+        "b1c32",
+        "b1c33",
+        "b1c36",
+        "b1c37",
+        "b1c38",
+        "b1c39",
+        "b1c40",
+        "b1c41",
+        "b1c44",
+        "b1c45"
+      ],
+      "valid_ids": [
+        "b1c6",
+        "b1c7",
+        "b1c16",
+        "b1c17",
+        "b1c30",
+        "b1c31",
+        "b1c42",
+        "b1c43"
+      ]
+    },
+    {
+      "fold": 3,
+      "train_ids": [
+        "b1c3",
+        "b1c4",
+        "b1c6",
+        "b1c7",
+        "b1c8",
+        "b1c9",
+        "b1c12",
+        "b1c13",
+        "b1c16",
+        "b1c17",
+        "b1c20",
+        "b1c21",
+        "b1c22",
+        "b1c23",
+        "b1c26",
+        "b1c27",
+        "b1c30",
+        "b1c31",
+        "b1c32",
+        "b1c33",
+        "b1c36",
+        "b1c37",
+        "b1c38",
+        "b1c39",
+        "b1c42",
+        "b1c43",
+        "b1c44",
+        "b1c45"
+      ],
+      "valid_ids": [
+        "b1c5",
+        "b1c10",
+        "b1c11",
+        "b1c24",
+        "b1c25",
+        "b1c40",
+        "b1c41"
+      ]
+    },
+    {
+      "fold": 4,
+      "train_ids": [
+        "b1c3",
+        "b1c4",
+        "b1c5",
+        "b1c6",
+        "b1c7",
+        "b1c8",
+        "b1c9",
+        "b1c10",
+        "b1c11",
+        "b1c16",
+        "b1c17",
+        "b1c20",
+        "b1c21",
+        "b1c22",
+        "b1c23",
+        "b1c24",
+        "b1c25",
+        "b1c30",
+        "b1c31",
+        "b1c32",
+        "b1c33",
+        "b1c38",
+        "b1c39",
+        "b1c40",
+        "b1c41",
+        "b1c42",
+        "b1c43",
+        "b1c44",
+        "b1c45"
+      ],
+      "valid_ids": [
+        "b1c12",
+        "b1c13",
+        "b1c26",
+        "b1c27",
+        "b1c36",
+        "b1c37"
+      ]
+    },
+    {
+      "fold": 5,
+      "train_ids": [
+        "b1c3",
+        "b1c4",
+        "b1c5",
+        "b1c6",
+        "b1c7",
+        "b1c10",
+        "b1c11",
+        "b1c12",
+        "b1c13",
+        "b1c16",
+        "b1c17",
+        "b1c20",
+        "b1c21",
+        "b1c24",
+        "b1c25",
+        "b1c26",
+        "b1c27",
+        "b1c30",
+        "b1c31",
+        "b1c32",
+        "b1c33",
+        "b1c36",
+        "b1c37",
+        "b1c40",
+        "b1c41",
+        "b1c42",
+        "b1c43",
+        "b1c44",
+        "b1c45"
+      ],
+      "valid_ids": [
+        "b1c8",
+        "b1c9",
+        "b1c22",
+        "b1c23",
+        "b1c38",
+        "b1c39"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "name": "A_dummy_raw_a0",
+      "feature_set": "A",
+      "estimator": "dummy",
+      "target": "raw",
+      "alpha": 0.0,
+      "features": [
+        "dq_logvar"
+      ]
+    },
+    {
+      "name": "A_linear_raw_a0",
+      "feature_set": "A",
+      "estimator": "linear",
+      "target": "raw",
+      "alpha": 0.0,
+      "features": [
+        "dq_logvar"
+      ]
+    },
+    {
+      "name": "A_linear_log10_a0",
+      "feature_set": "A",
+      "estimator": "linear",
+      "target": "log10",
+      "alpha": 0.0,
+      "features": [
+        "dq_logvar"
+      ]
+    },
+    {
+      "name": "B_ridge_raw_a0.1",
+      "feature_set": "B",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "B_ridge_raw_a1",
+      "feature_set": "B",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "B_ridge_raw_a10",
+      "feature_set": "B",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "B_ridge_log10_a0.1",
+      "feature_set": "B",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "B_ridge_log10_a1",
+      "feature_set": "B",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "B_ridge_log10_a10",
+      "feature_set": "B",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "C_ridge_raw_a0.1",
+      "feature_set": "C",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "C1",
+        "switch_pct",
+        "C2"
+      ]
+    },
+    {
+      "name": "C_ridge_raw_a1",
+      "feature_set": "C",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "C1",
+        "switch_pct",
+        "C2"
+      ]
+    },
+    {
+      "name": "C_ridge_raw_a10",
+      "feature_set": "C",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "C1",
+        "switch_pct",
+        "C2"
+      ]
+    },
+    {
+      "name": "C_ridge_log10_a0.1",
+      "feature_set": "C",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "C1",
+        "switch_pct",
+        "C2"
+      ]
+    },
+    {
+      "name": "C_ridge_log10_a1",
+      "feature_set": "C",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "C1",
+        "switch_pct",
+        "C2"
+      ]
+    },
+    {
+      "name": "C_ridge_log10_a10",
+      "feature_set": "C",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "C1",
+        "switch_pct",
+        "C2"
+      ]
+    },
+    {
+      "name": "B_plus_QDdelta_ridge_raw_a0.1",
+      "feature_set": "B_plus_QDdelta",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "QD100_minus_QD10"
+      ]
+    },
+    {
+      "name": "B_plus_QDdelta_ridge_raw_a1",
+      "feature_set": "B_plus_QDdelta",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "QD100_minus_QD10"
+      ]
+    },
+    {
+      "name": "B_plus_QDdelta_ridge_raw_a10",
+      "feature_set": "B_plus_QDdelta",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "QD100_minus_QD10"
+      ]
+    },
+    {
+      "name": "B_plus_QDdelta_ridge_log10_a0.1",
+      "feature_set": "B_plus_QDdelta",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "QD100_minus_QD10"
+      ]
+    },
+    {
+      "name": "B_plus_QDdelta_ridge_log10_a1",
+      "feature_set": "B_plus_QDdelta",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "QD100_minus_QD10"
+      ]
+    },
+    {
+      "name": "B_plus_QDdelta_ridge_log10_a10",
+      "feature_set": "B_plus_QDdelta",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_median",
+        "QD100_minus_QD10"
+      ]
+    },
+    {
+      "name": "B_replace_slope_ridge_raw_a0.1",
+      "feature_set": "B_replace_slope",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD100_minus_QD10",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "B_replace_slope_ridge_raw_a1",
+      "feature_set": "B_replace_slope",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD100_minus_QD10",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "B_replace_slope_ridge_raw_a10",
+      "feature_set": "B_replace_slope",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD100_minus_QD10",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "B_replace_slope_ridge_log10_a0.1",
+      "feature_set": "B_replace_slope",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD100_minus_QD10",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "B_replace_slope_ridge_log10_a1",
+      "feature_set": "B_replace_slope",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD100_minus_QD10",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "B_replace_slope_ridge_log10_a10",
+      "feature_set": "B_replace_slope",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD100_minus_QD10",
+        "Tavg_mean",
+        "chargetime_median"
+      ]
+    },
+    {
+      "name": "B_charge_mean_ridge_raw_a0.1",
+      "feature_set": "B_charge_mean",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_mean"
+      ]
+    },
+    {
+      "name": "B_charge_mean_ridge_raw_a1",
+      "feature_set": "B_charge_mean",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_mean"
+      ]
+    },
+    {
+      "name": "B_charge_mean_ridge_raw_a10",
+      "feature_set": "B_charge_mean",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_mean"
+      ]
+    },
+    {
+      "name": "B_charge_mean_ridge_log10_a0.1",
+      "feature_set": "B_charge_mean",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_mean"
+      ]
+    },
+    {
+      "name": "B_charge_mean_ridge_log10_a1",
+      "feature_set": "B_charge_mean",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_mean"
+      ]
+    },
+    {
+      "name": "B_charge_mean_ridge_log10_a10",
+      "feature_set": "B_charge_mean",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean",
+        "chargetime_mean"
+      ]
+    },
+    {
+      "name": "B_no_charge_ridge_raw_a0.1",
+      "feature_set": "B_no_charge",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean"
+      ]
+    },
+    {
+      "name": "B_no_charge_ridge_raw_a1",
+      "feature_set": "B_no_charge",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean"
+      ]
+    },
+    {
+      "name": "B_no_charge_ridge_raw_a10",
+      "feature_set": "B_no_charge",
+      "estimator": "ridge",
+      "target": "raw",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean"
+      ]
+    },
+    {
+      "name": "B_no_charge_ridge_log10_a0.1",
+      "feature_set": "B_no_charge",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 0.1,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean"
+      ]
+    },
+    {
+      "name": "B_no_charge_ridge_log10_a1",
+      "feature_set": "B_no_charge",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 1.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean"
+      ]
+    },
+    {
+      "name": "B_no_charge_ridge_log10_a10",
+      "feature_set": "B_no_charge",
+      "estimator": "ridge",
+      "target": "log10",
+      "alpha": 10.0,
+      "features": [
+        "dq_logvar",
+        "QD_early_slope",
+        "Tavg_mean"
+      ]
+    }
+  ],
+  "nonlinear_models": "Deferred: exploratory residual checks do not establish reproducible nonlinearity."
+}

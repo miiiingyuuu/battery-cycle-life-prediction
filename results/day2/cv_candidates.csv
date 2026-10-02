@@ -1,0 +1,40 @@
+candidate,feature_set,estimator,target,alpha,feature_count,features,cv_mean_MAPE_pct,cv_std_MAPE_pct,cv_SE_pct
+A_linear_log10_a0,A,linear,log10,0.0,1,dq_logvar,7.134497042601943,2.409528412265431,1.0775738647085282
+A_linear_raw_a0,A,linear,raw,0.0,1,dq_logvar,7.200716344387925,2.8118703457568004,1.2575066474056085
+B_charge_mean_ridge_raw_a1,B_charge_mean,ridge,raw,1.0,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_mean",7.8059896184154045,1.7292283900990766,0.7733344457768119
+B_ridge_raw_a1,B,ridge,raw,1.0,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median",7.960941664946351,2.51297447407554,1.123836349950938
+B_charge_mean_ridge_raw_a0.1,B_charge_mean,ridge,raw,0.1,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_mean",8.055604701144226,1.561404264516667,0.698281215163466
+B_charge_mean_ridge_log10_a1,B_charge_mean,ridge,log10,1.0,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_mean",8.21647119380963,1.55204645432411,0.6940962752212464
+B_no_charge_ridge_raw_a1,B_no_charge,ridge,raw,1.0,3,"dq_logvar, QD_early_slope, Tavg_mean",8.220191761059645,1.8939684881457535,0.8470084573472818
+C_ridge_log10_a0.1,C,ridge,log10,0.1,7,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, C1, switch_pct, C2",8.233619986638525,2.9004457222849087,1.2971187600155065
+B_replace_slope_ridge_raw_a1,B_replace_slope,ridge,raw,1.0,4,"dq_logvar, QD100_minus_QD10, Tavg_mean, chargetime_median",8.281533360738916,2.1266429721120614,0.9510636499029518
+B_ridge_raw_a0.1,B,ridge,raw,0.1,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median",8.28603374712396,1.9756323806572944,0.8835296603398901
+B_ridge_raw_a10,B,ridge,raw,10.0,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median",8.33939248033223,2.6977709251756115,1.206479835283033
+B_replace_slope_ridge_raw_a10,B_replace_slope,ridge,raw,10.0,4,"dq_logvar, QD100_minus_QD10, Tavg_mean, chargetime_median",8.35802522851669,2.4774090237045434,1.1079309970149493
+B_plus_QDdelta_ridge_raw_a1,B_plus_QDdelta,ridge,raw,1.0,5,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, QD100_minus_QD10",8.366241499075333,2.379633252520109,1.0642043428307773
+B_charge_mean_ridge_log10_a0.1,B_charge_mean,ridge,log10,0.1,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_mean",8.369114807621935,2.069769048336803,0.9256288579612278
+C_ridge_log10_a1,C,ridge,log10,1.0,7,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, C1, switch_pct, C2",8.38520933443395,2.8872378062356314,1.2912120003900476
+B_plus_QDdelta_ridge_raw_a10,B_plus_QDdelta,ridge,raw,10.0,5,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, QD100_minus_QD10",8.399432744600407,2.687240777120385,1.2017706099101084
+B_charge_mean_ridge_raw_a10,B_charge_mean,ridge,raw,10.0,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_mean",8.402903529579117,1.7844261587501924,0.7980196383588523
+B_no_charge_ridge_raw_a0.1,B_no_charge,ridge,raw,0.1,3,"dq_logvar, QD_early_slope, Tavg_mean",8.457900029301761,1.9865436967274293,0.8884093492312516
+B_replace_slope_ridge_raw_a0.1,B_replace_slope,ridge,raw,0.1,4,"dq_logvar, QD100_minus_QD10, Tavg_mean, chargetime_median",8.644280404879776,1.7690117838785466,0.7911261203501193
+B_ridge_log10_a10,B,ridge,log10,10.0,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median",8.649313729069258,2.5664032707550244,1.1477304342172066
+B_plus_QDdelta_ridge_log10_a10,B_plus_QDdelta,ridge,log10,10.0,5,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, QD100_minus_QD10",8.713871677303015,2.517624009048317,1.1259156852035164
+B_charge_mean_ridge_log10_a10,B_charge_mean,ridge,log10,10.0,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_mean",8.71794342378775,1.6226490422881643,0.7256707124362533
+B_replace_slope_ridge_log10_a10,B_replace_slope,ridge,log10,10.0,4,"dq_logvar, QD100_minus_QD10, Tavg_mean, chargetime_median",8.726283279978782,2.226889384995166,0.9958952086443782
+B_no_charge_ridge_log10_a1,B_no_charge,ridge,log10,1.0,3,"dq_logvar, QD_early_slope, Tavg_mean",8.73061497677835,2.0148442427739037,0.9010657381833076
+B_ridge_log10_a1,B,ridge,log10,1.0,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median",8.733996469753743,1.8049956691655598,0.8072186030693825
+C_ridge_raw_a10,C,ridge,raw,10.0,7,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, C1, switch_pct, C2",8.768503668262937,2.650949468195062,1.1855406431602151
+B_replace_slope_ridge_log10_a1,B_replace_slope,ridge,log10,1.0,4,"dq_logvar, QD100_minus_QD10, Tavg_mean, chargetime_median",8.826642457580583,1.9105877766188137,0.8544408290999701
+C_ridge_raw_a1,C,ridge,raw,1.0,7,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, C1, switch_pct, C2",8.839769727516622,2.5876813445329834,1.157246278096761
+B_no_charge_ridge_log10_a0.1,B_no_charge,ridge,log10,0.1,3,"dq_logvar, QD_early_slope, Tavg_mean",8.855577879334165,2.541954381237776,1.1367965584302167
+B_ridge_log10_a0.1,B,ridge,log10,0.1,4,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median",8.867124396291391,2.0524303951785687,0.9178747765412072
+C_ridge_log10_a10,C,ridge,log10,10.0,7,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, C1, switch_pct, C2",8.896968601929565,2.745287728433994,1.2277299957148784
+B_no_charge_ridge_raw_a10,B_no_charge,ridge,raw,10.0,3,"dq_logvar, QD_early_slope, Tavg_mean",8.919881435566577,1.974136813650177,0.882860822441326
+B_replace_slope_ridge_log10_a0.1,B_replace_slope,ridge,log10,0.1,4,"dq_logvar, QD100_minus_QD10, Tavg_mean, chargetime_median",9.005784265749991,2.299987292486995,1.0285855866773224
+B_plus_QDdelta_ridge_log10_a1,B_plus_QDdelta,ridge,log10,1.0,5,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, QD100_minus_QD10",9.015268836552972,1.9480244269497096,0.8711830080979247
+B_no_charge_ridge_log10_a10,B_no_charge,ridge,log10,10.0,3,"dq_logvar, QD_early_slope, Tavg_mean",9.090512295896772,2.2565243472206364,1.0091483666537362
+C_ridge_raw_a0.1,C,ridge,raw,0.1,7,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, C1, switch_pct, C2",9.15139567138431,2.5589311204026317,1.1443887869919966
+B_plus_QDdelta_ridge_raw_a0.1,B_plus_QDdelta,ridge,raw,0.1,5,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, QD100_minus_QD10",9.332212804188321,2.429909955162023,1.08668876778915
+B_plus_QDdelta_ridge_log10_a0.1,B_plus_QDdelta,ridge,log10,0.1,5,"dq_logvar, QD_early_slope, Tavg_mean, chargetime_median, QD100_minus_QD10",9.842509279388361,2.6123820230831862,1.1682927573624857
+A_dummy_raw_a0,A,dummy,raw,0.0,0,dq_logvar,19.627185157912557,10.22532628423933,4.572904932734895
